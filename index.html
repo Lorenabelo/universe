@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe</title>
+    <link rel="stylesheet" href="./src/css/global.css">
+</head>
+<body>
+    <header class="header">
+        <span class="header__title">Universe</span>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">Sobre</a></li>
+                <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contate Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__content">
+                <p class="hero__welcome">Bem vindo(a) a um novo Universo</p>
+                <h1 class="hero__title">Diferentes mundos para diferentes pessoas</h1>
+                <p class="hero__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptatem consectetur totam nesciunt</p>
+                <button class="hero__button">Explore</button>
+            </div>
+            <img src="./src/img/astronauta.svg" alt="Imagem de um astronauta" class="hero__image">
+        </section>
+        <section id="about" class="about">
+            <div class="about__image-container">
+                <img src="#" alt="Foto de perfil da Lorena" class="about__image">
+            </div>
+            <div class="about__content">
+                <h2 class="about__title">Quem sou eu?</h2>
+                <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis officia repellat dolores culpa, eligendi quod esse necessitatibus sint odio ex quidem nulla dolorem itaque? Optio unde nam molestiae quibusdam?</p>
+                <div class="about__social">
+                    <a href="#" class="about__social-link">
+                        <button class="about__social-button">Github</button>
+                    </a>
+                    <p class="about__social-followers">
+                        <span class="about__social-followers-count">X</span> Seguidores
+                    </p>
+                    <p class="about__social-repos">
+                        <span class="about__social-repos-count">Y</span> Repositórios
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact__info">
+                <h2 class="contact__title">Me contate</h2>
+                <p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste modi facere sequi provident quisquam quod accusantium voluptates eius quis totam, eligendi sint cumque doloremque. Illum amet temporibus iste deleniti nostrum?</p>
+                <div class="contact__social">
+                    <a href="#" class="contact__social-link">
+                        <button class="contact__social-button">
+                            <img src="./src/img/linkedin.svg" alt="ícone do LinkedIn" class="contact__social-icon">
+                        </button>
+                    </a>
+                    <a href="#" class="contact__social-link">
+                        <button class="contact__social-button">
+                            <img src="./src/img/github.svg" alt="Ícone do Github" class="contact__social-icon">
+                        </button>
+                    </a>
+                    <a href="#" class="contact__social-link">
+                        <button class="contact__social-button">
+                            <img src="./src/img/instagram.svg" alt="Ícone do Instagram" class="contact__social-icon">
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact__form-container">
+                <form class="contact__form">
+                    <label for="name" class="contact__form-label">Nome:</label>
+                    <input type="text" placeholder="Nome" id="contact-name" name="name" class="contact__form-input">
+                    <span id="validated__name" class="contact__form-error"></span>
+
+                    <label for="mail" class="contact__form-label">Email:</label>
+                    <input type="email" placeholder="Email" id="contact-email" name="mail" class="contact__form-input">
+                    <span id="validated__email" class="contact__form-error"></span>
+
+                    <label for="subject" class="contact__form-label">Assunto</label>
+                    <input type="text" placeholder="Assunto" id="contact-subject" name="subject" class="contact__form-input">
+                    <span id="validated__subject" class="contact__form-error"></span>
+
+                    <label for="message" class="contact__form-label">Mensagem</label>
+                    <textarea name="message" id="contact-message" name="message" cols="30" rows="10" placeholder="Mensagem" class="contact__form-textarea"></textarea>
+                    <span id="validated__message" class="contact__form-error"></span>
+
+                    <input type="submit" value="Enviar" class="contact__form-submit" id="contact__submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Todos os direitos reservados &copy; 2024</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

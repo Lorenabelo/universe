@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--color-royal-lilac);
+
+    .footer__text{
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-white);
+        text-align: center;
+        padding: 30px 15%;
+    }
+}

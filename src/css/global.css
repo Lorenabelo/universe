@@ -1,0 +1,21 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+:root{
+    --color-deep-purple: #441f88;
+    --color-vibrant-violet: #5c20c6;
+    --color-royal-lilac: #6b36c8;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-soft-gray: #ccc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
